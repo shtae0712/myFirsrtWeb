@@ -38,7 +38,7 @@ public class HomeController {
 		for(int i=0; i<list.size(); i++){
 			model.addAttribute("ID", list.get(0).getId() );
 		}
-
+        // GitHub Test
 		return "home";
 	}
 	
